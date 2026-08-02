@@ -1,0 +1,7 @@
+﻿task,task_display,comparison,reference_model,auc_compact_panel,auc_reference,auc_difference_unrounded,difference_ci_lower,difference_ci_upper,bootstrap_valid,bootstrap_rejected_single_class,statistical_superiority_established
+malignant_vs_non_malignant,Malignant vs non-malignant,best single-feature-family baseline,GLCM texture baseline,0.8311688311688311,0.8181818181818181,0.012987012987012991,-0.11038961038961037,0.15833333333333333,2000,0,False
+malignant_vs_non_malignant,Malignant vs non-malignant,full-feature baseline,Full-feature baseline,0.8311688311688311,0.6363636363636364,0.19480519480519476,-0.025724637681159436,0.47508152173913004,2000,0,False
+inflammatory_vs_hyperplastic,Inflammatory vs hyperplastic,best single-feature-family baseline,Low-signal morphology baseline,0.9,0.7666666666666667,0.1333333333333333,-0.054545454545454564,0.4004166666666644,2000,2,False
+inflammatory_vs_hyperplastic,Inflammatory vs hyperplastic,full-feature baseline,Full-feature baseline,0.9,0.55,0.35,0.04166666666666663,0.6825396825396826,2000,2,True
+adenoma_vs_non_neoplastic,Tubular adenoma vs non-neoplastic,best single-feature-family baseline,GLCM texture baseline,0.8645833333333333,0.78125,0.08333333333333326,-0.05006578947368425,0.23809523809523814,2000,2,False
+adenoma_vs_non_neoplastic,Tubular adenoma vs non-neoplastic,full-feature baseline,Full-feature baseline,0.8645833333333333,0.6979166666666666,0.16666666666666663,-0.02083333333333337,0.419097744360902,2000,2,False

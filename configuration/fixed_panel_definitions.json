@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "method_name": "Task-specific compact feature-panel method based on orientation-independent single-feature AUC ranking and redundancy reduction",
+  "panel_size": 4,
+  "panels": {
+    "malignant_vs_non_malignant": [
+      "GLCM_correlation",
+      "Kurtosis",
+      "LowObj_MeanEccentricity",
+      "LowObj_MeanSolidity"
+    ],
+    "inflammatory_vs_hyperplastic": [
+      "Skewness",
+      "LowObj_MeanCircularity",
+      "LowObj_MeanSolidity",
+      "LowSignalRatio"
+    ],
+    "adenoma_vs_non_neoplastic": [
+      "GLCM_dissimilarity",
+      "GLCM_homogeneity",
+      "LowObj_Density_per_10kpx",
+      "GLCM_contrast"
+    ]
+  },
+  "note": "Panels are fixed before LOOCV; only StandardScaler and logistic-regression parameters are fitted in each training fold."
+}

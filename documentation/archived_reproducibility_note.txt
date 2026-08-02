@@ -1,0 +1,7 @@
+Suggested reproducibility statement
+
+Analysis code, fixed panel definitions, de-identified ROI- and case-level feature tables, task-wise single-feature AUC rankings, redundancy-group definitions, panel-selection records, out-of-fold prediction scores, and software-environment specifications required to reproduce the reported case-level modeling results are provided in the supplementary reproducibility package.
+
+Scope note
+
+The supplied code reproduces ROI-to-case aggregation, task-wise orientation-independent single-feature AUC ranking, the documented redundancy-reduction and tie-breaking rules, fixed-panel construction, LOOCV predictions, AUCs, and bootstrap confidence intervals. Panel construction and pooled-threshold estimation used the complete current cohort and were not nested within LOOCV.

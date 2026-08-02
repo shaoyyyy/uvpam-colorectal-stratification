@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "absolute_tolerance": 1e-12,
+  "compact_panel_results": {
+    "malignant_vs_non_malignant": {
+      "auc": 0.8311688311688311,
+      "ci_lower": 0.58325,
+      "ci_upper": 1.0
+    },
+    "inflammatory_vs_hyperplastic": {
+      "auc": 0.9,
+      "ci_lower": 0.6666666666666666,
+      "ci_upper": 1.0
+    },
+    "adenoma_vs_non_neoplastic": {
+      "auc": 0.8645833333333333,
+      "ci_lower": 0.642827380952381,
+      "ci_upper": 1.0
+    }
+  },
+  "rounded_values_reported_in_the_manuscript": {
+    "malignant_vs_non_malignant": {
+      "auc": 0.831,
+      "ci": "0.583-1.000"
+    },
+    "inflammatory_vs_hyperplastic": {
+      "auc": 0.900,
+      "ci": "0.667-1.000"
+    },
+    "adenoma_vs_non_neoplastic": {
+      "auc": 0.865,
+      "ci": "0.643-1.000"
+    }
+  }
+}

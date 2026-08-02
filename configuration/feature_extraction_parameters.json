@@ -1,0 +1,24 @@
+{
+    "low_signal_threshold_percentile": 15,
+    "high_signal_threshold_percentile": 85,
+    "low_signal_threshold_value": 42.0,
+    "high_signal_threshold_value": 150.0,
+    "otsu_threshold_reference": 93.0,
+    "parameters": {
+        "gaussian_sigma": 0.8,
+        "glcm_levels": 32,
+        "glcm_distances": [
+            1,
+            2
+        ],
+        "glcm_angles_degree": [
+            0,
+            45,
+            90,
+            135
+        ],
+        "low_signal_percentile": 15,
+        "high_signal_percentile": 85,
+        "min_object_size_px": 16
+    }
+}
