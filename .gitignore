@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+reproduced_results/
+optional_nested_analysis/generated_results/
+.DS_Store
+Thumbs.db
