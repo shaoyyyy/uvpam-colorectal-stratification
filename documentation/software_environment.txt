@@ -1,6 +1,0 @@
-Package generation environment
-Python 3.13.5
-NumPy 2.3.5
-SciPy 1.17.0
-scikit-learn 1.8.0
-No serialized/pickled estimators are included; models are refitted from the feature tables.
