@@ -1,0 +1,4 @@
+﻿task,task_display,n_positive,n_negative,nested_loocv_auc,ci_lower,ci_upper,bootstrap_valid,bootstrap_rejected_single_class
+malignant_vs_non_malignant,Malignant vs non-malignant,7,22,0.538961038961039,0.2332971014492754,0.8335144927536222,2000,0
+inflammatory_vs_hyperplastic,Inflammatory vs hyperplastic,10,6,0.6333333333333333,0.30000000000000004,0.9273051948051946,2000,2
+tubular_adenoma_vs_non_neoplastic,Tubular adenoma vs non-neoplastic,6,16,0.6770833333333334,0.4165441176470588,0.914583333333333,2000,2

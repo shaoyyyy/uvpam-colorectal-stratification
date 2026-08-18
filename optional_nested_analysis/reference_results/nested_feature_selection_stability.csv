@@ -1,0 +1,29 @@
+﻿task,task_display,feature,outer_folds_selected,outer_fold_count,selection_frequency
+malignant_vs_non_malignant,Malignant vs non-malignant,GLCM_correlation,23,29,0.7931034482758621
+malignant_vs_non_malignant,Malignant vs non-malignant,LowObj_MeanAspectRatio,21,29,0.7241379310344828
+malignant_vs_non_malignant,Malignant vs non-malignant,LowObj_MeanSolidity,12,29,0.41379310344827586
+malignant_vs_non_malignant,Malignant vs non-malignant,IQR,9,29,0.3103448275862069
+malignant_vs_non_malignant,Malignant vs non-malignant,LowObj_MeanEccentricity,6,29,0.20689655172413793
+malignant_vs_non_malignant,Malignant vs non-malignant,Min,5,29,0.1724137931034483
+malignant_vs_non_malignant,Malignant vs non-malignant,Kurtosis,3,29,0.10344827586206896
+malignant_vs_non_malignant,Malignant vs non-malignant,StdDev,1,29,0.034482758620689655
+malignant_vs_non_malignant,Malignant vs non-malignant,HighSignalRatio,1,29,0.034482758620689655
+malignant_vs_non_malignant,Malignant vs non-malignant,LowObj_Count,1,29,0.034482758620689655
+inflammatory_vs_hyperplastic,Inflammatory vs hyperplastic,Skewness,12,16,0.75
+inflammatory_vs_hyperplastic,Inflammatory vs hyperplastic,LowObj_MeanCircularity,10,16,0.625
+inflammatory_vs_hyperplastic,Inflammatory vs hyperplastic,LowObj_MeanSolidity,8,16,0.5
+inflammatory_vs_hyperplastic,Inflammatory vs hyperplastic,Kurtosis,7,16,0.4375
+inflammatory_vs_hyperplastic,Inflammatory vs hyperplastic,GLCM_contrast,4,16,0.25
+inflammatory_vs_hyperplastic,Inflammatory vs hyperplastic,LowObj_TotalAreaRatio_filtered,4,16,0.25
+inflammatory_vs_hyperplastic,Inflammatory vs hyperplastic,P25,1,16,0.0625
+inflammatory_vs_hyperplastic,Inflammatory vs hyperplastic,GLCM_dissimilarity,1,16,0.0625
+inflammatory_vs_hyperplastic,Inflammatory vs hyperplastic,GLCM_ASM,1,16,0.0625
+inflammatory_vs_hyperplastic,Inflammatory vs hyperplastic,LowObj_MeanAspectRatio,1,16,0.0625
+tubular_adenoma_vs_non_neoplastic,Tubular adenoma vs non-neoplastic,GLCM_dissimilarity,21,22,0.9545454545454546
+tubular_adenoma_vs_non_neoplastic,Tubular adenoma vs non-neoplastic,LowObj_Count,19,22,0.8636363636363636
+tubular_adenoma_vs_non_neoplastic,Tubular adenoma vs non-neoplastic,P10,5,22,0.22727272727272727
+tubular_adenoma_vs_non_neoplastic,Tubular adenoma vs non-neoplastic,LowObj_Density_per_10kpx,4,22,0.18181818181818182
+tubular_adenoma_vs_non_neoplastic,Tubular adenoma vs non-neoplastic,Max,1,22,0.045454545454545456
+tubular_adenoma_vs_non_neoplastic,Tubular adenoma vs non-neoplastic,GLCM_homogeneity,1,22,0.045454545454545456
+tubular_adenoma_vs_non_neoplastic,Tubular adenoma vs non-neoplastic,LowObj_MeanSolidity,1,22,0.045454545454545456
+tubular_adenoma_vs_non_neoplastic,Tubular adenoma vs non-neoplastic,LowObj_MeanAspectRatio,1,22,0.045454545454545456

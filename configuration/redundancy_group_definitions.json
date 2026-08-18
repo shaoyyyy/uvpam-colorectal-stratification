@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "candidate_pool": {
+    "initial_descriptor_count": 33,
+    "nonredundant_descriptor_count": 31,
+    "algebraic_exclusions_before_ranking": [
+      {
+        "feature": "CavityRatio",
+        "canonical_feature": "LowSignalRatio",
+        "relation": "numerically identical",
+        "reason": "Both describe the low-signal area fraction."
+      },
+      {
+        "feature": "SignalAreaRatio",
+        "canonical_feature": "LowSignalRatio",
+        "relation": "exact complement",
+        "reason": "SignalAreaRatio = 1 - LowSignalRatio."
+      }
+    ]
+  },
+  "semantic_redundancy_groups": [
+    {
+      "group_id": "low_signal_elongation",
+      "members": [
+        "LowObj_MeanAspectRatio",
+        "LowObj_MeanEccentricity"
+      ],
+      "preferred_if_auc_equal": "LowObj_MeanEccentricity",
+      "reason": "Both describe elongation of low-signal objects; eccentricity was retained for clearer interpretation."
+    },
+    {
+      "group_id": "low_signal_occupancy",
+      "members": [
+        "LowSignalRatio",
+        "LowObj_TotalAreaRatio_filtered"
+      ],
+      "preferred_if_auc_equal": "LowSignalRatio",
+      "reason": "Both describe low-signal occupancy; LowSignalRatio is the canonical direct area-fraction descriptor."
+    }
+  ],
+  "task_specific_equal_auc_priorities": {
+    "malignant_vs_non_malignant": [
+      {
+        "features": [
+          "LowObj_MeanSolidity",
+          "IQR"
+        ],
+        "preferred_order": [
+          "LowObj_MeanSolidity",
+          "IQR"
+        ],
+        "reason": "Solidity added a nonredundant low-signal morphology dimension at the fourth-feature boundary."
+      }
+    ],
+    "inflammatory_vs_hyperplastic": [
+      {
+        "features": [
+          "Kurtosis",
+          "LowObj_TotalAreaRatio_filtered",
+          "LowSignalRatio"
+        ],
+        "preferred_order": [
+          "LowSignalRatio",
+          "Kurtosis",
+          "LowObj_TotalAreaRatio_filtered"
+        ],
+        "reason": "Low-signal area fraction added canonical signal-occupancy information at the fourth-feature boundary."
+      }
+    ],
+    "tubular_adenoma_vs_non_neoplastic": [
+      {
+        "features": [
+          "LowObj_Density_per_10kpx",
+          "GLCM_contrast"
+        ],
+        "preferred_order": [
+          "LowObj_Density_per_10kpx",
+          "GLCM_contrast"
+        ],
+        "reason": "Both descriptors were retained; the order records the fixed panel composition."
+      }
+    ]
+  },
+  "selection_scope_note": "The ranking and documented panel selection used the complete analyzed cohort and were not nested within LOOCV. Final reproduction reads the already fixed panels rather than searching again."
+}
